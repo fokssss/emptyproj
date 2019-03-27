@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <meta http-equiv="Access-Control-Allow-Origin" content="*" /> -->
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./index.css" />
+  <title>API 接口列表</title>
+</head>
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.4.0.js"></script>
+<script type="text/javascript" src="./mtl.js"></script>
+<script type="text/javascript" src="./index.js"></script>
+
+<body>
+  <div>
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>图像接口</p>
+          </div>
+          <div>
+            <div>
+              <a href="javascript:onApiAction('chooseImage');">
+                <div>
+                  <p>拍照或相册</p>
+                </div>
+                <div></div>
+              </a>
+              <a href="javascript:onApiAction('previewImage');">
+                <div>
+                  <p>预览图片</p>
+                </div>
+              </a>
+              <a data-id="3" href="javascript:;">
+                <div>
+                  <p>上传图片</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>获取本地图片</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>音频接口</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>开始录音</p>
+                </div>
+                <div></div>
+              </a>
+              <a data-id="2" href="javascript:;">
+                <div>
+                  <p>停止录音</p>
+                </div>
+              </a>
+              <a data-id="3" href="javascript:;">
+                <div>
+                  <p>监听录音自动停止</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>播放语音</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>暂停播放</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>停止播放</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>监听语音播放完毕</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>上传语音</p>
+                </div>
+              </a>
+              <a data-id="4" href="javascript:;">
+                <div>
+                  <p>下载语音</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>智能接口</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>识别音频</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>设备信息</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>获取网络状态</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>地理位置</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>使用内置地图打开地点</p>
+                </div>
+                <div></div>
+              </a>
+              <a href="javascript:onApiAction('getLocation');">
+                <div>
+                  <p>获取地理位置</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>摇一摇周边</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>开启ibeacon</p>
+                </div>
+              </a>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>关闭ibeacon</p>
+                </div>
+              </a>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>监听ibeacon</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>微信扫一扫</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>调起微信扫一扫</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <ul>
+        <li>
+          <div>
+            <p>微信卡券</p>
+          </div>
+          <div>
+            <div>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>拉取使用卡券列表</p>
+                </div>
+              </a>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>批量添加卡券接口</p>
+                </div>
+              </a>
+              <a data-id="1" href="javascript:;">
+                <div>
+                  <p>查看微信卡包的卡券</p>
+                </div>
+              </a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</body>
+
+</html>

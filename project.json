@@ -1,0 +1,50 @@
+{
+	"application": {
+		"app_start": "index.html",
+		"app_name": "d2",
+		"project_name": "d2",
+		"package_name": "com.yonyou.uniprisident",
+		"frame_name": "summer-um",
+		"theme": "blue",
+		"icon": {
+			"content": "app",
+			"props": {
+				"relativePath": "css/themes/default/app"
+			}
+		},
+		"versionCode": "100",
+		"versionBuild": "1.0.0",
+		"versionName": "1.0.0",
+		"orientation": "unspecified",
+		"statusBarStyle": "dark",
+		"fullScreen": "true",
+		"windowSoftInputMode": "stateHidden",
+		"import": [
+			{
+				"id": "cordova-plugin-compat",
+				"type": "web",
+				"ref": "cordova"
+			},
+			{
+				"id": "summer-plugin-twodimensioncode",
+				"type": "web",
+				"ref": "cordova"
+			},
+			{
+				"id": "cordova-plugin-http",
+				"type": "web",
+				"ref": "cordova"
+			},
+			{
+				"id": "cordova-plugin-camera",
+				"type": "web",
+				"ref": "cordova"
+			},
+			{
+				"id": "cordova-plugin-file",
+				"type": "web",
+				"ref": "cordova"
+			}
+		]
+	}
+}
